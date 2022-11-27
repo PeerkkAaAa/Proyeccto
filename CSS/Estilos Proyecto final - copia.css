@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(220, 228, 235);
+    margin: 0;
+}
+
+#header{
+    background-color: #afb3b3;
+    position: absolute;
+}
+
+#titulop{
+
+    color: #8A2BE2;
+    font-family: 'Righteous', cursive;
+
+}
+
+#titulo2{
+
+    color: #5F9EA0;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+#subtit{
+    color: #20B2AA;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: rgb(0, 0, 0) 0px 1px 2px;
+}
+
+.fondotext{
+    background-color: #e6bff1;
+    border-radius: 5px;
+}
+
+
+#text, tr{
+    color: #2F4F4F;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+td{ 
+    text-align: center;
+}
+
+th{
+    color: #8c57be;
+}
+
+.boton{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    border-style: dashed;
+    background-color: #AFEEEE
+}
+
+.boton:hover{
+    background-color:#70c2c2 ;
+    color: white;
+}
+
+#izquierda{
+    position:absolute;
+    padding-left: 20px;
+}
+
+.fondcentro{
+    background-color: #e6bff1;
+    border-radius: 5px;
+}
+
+.subtit2{
+    color: #20B2AA;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: rgb(0, 0, 0) 0px 1px 2px;
+    text-align: center;
+    font-size: 25px;
+    display: inline-flexbox;
+    padding-top: 10px ;
+    padding-left: 25%;
+    padding-right: 20%;
+    
+}
+
+#cajatextC{
+position: absolute;
+padding-right: 20%;
+
+
+}
+
+#textC{
+
+    color: #2F4F4F;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: justify;
+
+}
+
+#derecha{
+
+    padding-left: 84% ;
+
+}
+
+#subtit3{
+
+    color: #20B2AA;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: rgb(0, 0, 0) 0px 2px 2px;
+    text-align: center;
+    display: inline-flexbox;
+    position:absolute;
+    font-size: 18px;
+
+}
+
+
+#textA{
+    background-color: #808080;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    
+}
+
+#abajo{
+    
+    padding-bottom: 10px;
+}
+
+form{
+    padding-top: 22%;
+    font-family: 'Rajdhani', sans-serif;
+    padding-left: 30%;
+}
+
+

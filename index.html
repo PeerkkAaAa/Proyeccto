@@ -1,0 +1,175 @@
+<HTML>
+<HEAD>
+<TITLE>Proyecto Final</TITLE>
+<link rel="stylesheet" href="Estilos Proyecto final.css">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+
+</HEAD>
+<BODY>
+
+
+
+<center>
+<h1 id="titulop"> PROYECTO FINAL </h1>
+<h2 id="titulo2"> Página sobre operaciones aritméticas </h2>
+</center>
+
+<nav id="izquierda">
+
+
+<h3 id="subtit"><span class="fondotext"> Lista de tipos de operaciones </span></h3>
+
+<div id="text">
+<ul>
+    <li>Suma</li>
+    <li>Resta</li>
+    <li>Multiplicación</li>
+    <li>Division</li>
+</ul>
+</div>
+
+<table border="2px">
+
+    <tr>
+        <th colspan="5"><strong> EJEMPLOS</strong></th>
+    </tr>
+
+    <tr>
+      <td><strong>Suma</strong></td>
+      <td><strong>Resta</strong></td>
+      <td><strong>Multiplicación</strong></td>
+      <td><strong>Division</strong></td>
+    </tr>
+    
+    <tr>
+      <td> 2 + 2 = 4</td>
+      <td> 2 - 2 = 0</td>
+      <td> 2 * 2 = 4</td>
+      <td> 2 / 2 = 1</td>
+    </tr>
+
+    </table>
+    <br><br>
+    
+    <a href="https://www.uacj.mx/"><input type="button" class="boton" value="Ir a la pagina de la UACJ"></a>
+</nav>
+
+
+    <br><br><br>
+
+<main class="subtit2">
+
+    <section ><span class="fondcentro"> Que son las operaciones aritméticas?</span></section> 
+    <div id="cajatextC">
+    <p id="textC"> Disciplina que se enfoca en las sumas, restas, multiplicaciones y divisiones 
+        que se pueden hacer entre los números existentes. Así, se trata del área más básica de
+        las matemáticas. Se fue desarrollando con el tiempo para ampliar su campo de estudio
+        con otras operaciones como la potenciación o la raíz cuadrada. Asimismo, pasó a operar
+        no solo con números enteros, sino también con aquellas que tienen decimales, números 
+        negativos y, en general, números naturales</p>
+    </div>
+
+</main>
+
+<aside id="derecha">
+    <div id="subtit3">
+    <h3> SUMA + </h3>
+    <h3> RESTA - </h3>
+    <h3> MULTIPLICACIÓN * </h3>
+    <h3> DIVISION / </h3>
+    </div>
+
+</aside>
+
+
+<FORM>
+     <TABLE BORDER="0">
+     <TD ALIGN="RIGHT">Nombre:</TD>
+     <TD><INPUT TYPE="TEXT" NAME="nombre" SIZE="20"></TD>
+     </TR>
+     <TR>
+     <TD ALIGN="RIGHT">Apellidos:</TD>
+     <TD><INPUT TYPE="TEXT" NAME="apellidos" SIZE="30"></TD>
+     </TR>
+     <TR>
+     <TD ALIGN="RIGHT">Dirección:</TD>
+     <TD><INPUT TYPE="TEXT" NAME="direccion" SIZE="40"></TD>
+     </TR>
+     <TR>
+    <TD ALIGN="RIGHT">País:</TD>
+     <TD><SELECT NAME="País">
+     <OPTION VALUE="1">México</OPTION>
+    
+     <OPTION VALUE="2">EU</OPTION>
+     <OPTION VALUE="3">Canadá</OPTION>
+     </SELECT></TD>
+     </TR>
+     <TR>
+     <TD ALIGN="RIGHT">Sexo:</TD>
+     <TD><INPUT TYPE="RADIO" NAME="sexo" VALUE="H"> Hombre
+    <INPUT TYPE="RADIO" NAME="sexo" VALUE="M"> Mujer</TD>
+    </TR>
+     </TABLE>
+     </FORM>
+
+<div id="abajo">
+<footer id="textA"> Elaborado por Daniel Frayre Domínguez 222444 </footer>
+</div>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+var num;
+
+num = prompt("Escribe tu edad ")
+
+if (num >= 18)
+{
+    alert("Eres un adulto")
+}
+else
+{
+    alert("Eres aun muy joven")
+}
+
+var a;
+
+
+function sumar(sum1, sum2)
+{
+    var resultado;
+    resultado = sum1 + sum2;
+    return resultado;
+}
+alert("4 + 10 = "+ sumar(4, 10) );
+/*Mostrar resultado*/
+
+function resta(numero)
+{
+    return numero - numero;
+}
+
+function multiplicacion(numero)
+{
+    return numero * numero;
+}
+
+function division(numero)
+{
+    return numero/numero;
+}
+
+
+a = prompt("Escribe un numero entero :");
+alert("La resta del numero " + a + " entre si mismo es " + resta(a));
+a = prompt("Escribe un numero entero :");
+alert("La multiplicacion del numero " + a + " entre si mismo es " + multiplicacion(a));
+a = prompt("Escribe un numero entero :");
+alert("La division del numero " + a + " entre si mismo es " + division(a));
+
+</SCRIPT>
+</BODY>
+
+</HTML>
